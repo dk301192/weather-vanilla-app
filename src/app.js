@@ -135,7 +135,10 @@ function getSearchText(event)
 
   navigator.geolocation.getCurrentPosition(handlePosition);
   }
-  navigator.geolocation.getCurrentPosition(handlePosition);
+
+
+  let url = `${API_URL}&query=Nashik`;
+  axios.get(url).then(fetchWeatherData);
 
   currBtn.addEventListener("click",showCurrentCityTemp)
   form.addEventListener("submit",getSearchText);
