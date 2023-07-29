@@ -1,0 +1,80 @@
+body{
+    color: rgb(195, 163, 163);
+}
+h1{
+  margin-top: -20px;
+  color: rgb(226, 207, 218);
+
+}
+h1,h6{
+    text-align: center;
+
+}
+.main{
+    max-width: 500px;
+    overflow: none;
+    margin: 30px auto;
+    background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));    background-repeat: no-repeat;
+    padding: 20px;
+    background-size: cover;
+    border-radius: 10px;
+    }
+
+.btn{
+    border: none;
+}
+.button-grp{
+    display: flex;
+}
+#search_btn{
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+#curr_btn{
+    margin-left: 10px;
+     background-size: contain; 
+     background-repeat: no-repeat;
+     background-position: center;
+    background-image: url(../images/curr.png);
+}
+.temp-wrapper{
+    margin:20px auto;
+    width: fit-content;
+}
+.temp{
+    color: rgb(226, 207, 218);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+  .city_wrap
+  {
+    width: fit-content;
+    margin: 0px auto 20px auto;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(195, 163, 163);
+  }
+
+  .active-unit{
+    color: #fa71cd;
+  }
+  .active-unit:hover{
+    text-decoration: none;
+    color: #fa71cd;
+
+  }
+  .inactive{
+  color: rgb(195, 163, 163);
+  text-decoration: none;
+  }
+  .inactive:hover{
+    text-decoration: none;
+    color: rgb(195, 163, 163) !important;
+
+  }
+  .w-img{
+    width: fit-content;
+    margin: 0px auto 0px auto;
+  }
